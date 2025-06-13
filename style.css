@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: #d6b6b6;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:80vh;
+    background-color: darkolivegreen;
+    
+
+}
+
+.main{
+    color:aliceblue;
+    background-color: rgb(1, 46, 19);
+    width:40%;
+    height:50%;
+    border-radius: 10px;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    color:cyan;
+    margin-left: 55px;
+    
+}
+
+.datepick{
+    width: 200px;
+    height:30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c9ddc4;
+    color: #000;
+    font-size: 15px;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#calculate{
+ width:100px;
+ height:40px;
+ border-radius: 4px;
+ border: none;
+ background-color: #b8ee3a;
+ margin-left: 210px;
+ margin-top:20px;
+ cursor: pointer;
+ 
+}
+
+#result{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:gold;
+    margin-top: 20px;
+    text-align: center;
+}
